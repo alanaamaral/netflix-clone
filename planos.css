@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Netflix Sans', Arial, Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #e6e6e6;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 166.6px;
+  height: 45px;
+  margin: 24px 0 0 40px;
+}
+
+button {
+  border: none;
+  color: #333;
+  font-size: 19px;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-login {
+  margin: 30px 50px;
+
+}
+
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  margin: 116px auto;
+  text-align: center;
+  align-items: center;
+}
+
+.bi.bi-check-circle {
+  color: #e50913;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.text-step {
+  font-size: 13px;
+  margin: 22px 0 2px;
+}
+
+.title {
+  margin: 4px 0 24px;
+  font-size: 32px;
+  color: #333333;
+}
+
+.bi.bi-check2 {
+  color: #e50913;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.text {
+  margin: 8px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.text-align {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.text-section {
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 34px;
+}
+
+.btn-plan {
+  background-color: #e50913;
+  color: #fff0f1;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Netflix Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.btn-plan {
+  width: 340px;
+  height: 65px;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #f3f3f3;
+  color: #737373;
+  width: 100%;
+  align-items: center;
+  padding: 12px 68px;
+  margin-top: 8px;
+  border-top: 1px solid #e7e7e7;
+}
+
+.links {
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  margin: 30px 0 0;
+}
+
+a {
+  color: #737373;
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  text-decoration: none;
+}
+
+select {
+  width: 150px;
+  height: 44px;
+  background-color: white;
+  color: #737373;
+  font-size: 16px;
+  border-radius: 1px;
+  margin-right: 8px;
+  text-align: center;
+  padding-left: 6px;
+  cursor: pointer;
+  border-color: #737373;
+  margin-bottom: 10px;
+}
+
+option {
+  color: #737373;
+}
+
+.select-container {
+  position: relative;
+}
+
+.bi.bi-translate {
+  color: white;
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
